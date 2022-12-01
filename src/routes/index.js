@@ -17,6 +17,7 @@ router.use('/countries',countryRoute);
 //ROUTER BY ACTIVITIES
 router.use('/activities',activityRoute);
 
+//ejemplo cuando tengo spolo /
 router.get('/',(req,res)=>{
     res.send('Henry countries Pruebas')
 })

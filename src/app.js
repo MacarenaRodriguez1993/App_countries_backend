@@ -22,6 +22,7 @@ server.use((req, res, next) => {
   next();
 });
 
+//voy a index routes
 server.use('/', routes);
 
 // Error catching endware.
